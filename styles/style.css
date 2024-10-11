@@ -163,3 +163,57 @@ header .banner-container {
   text-align: center;
   opacity: 0.7;
 }
+
+/* about-us section styles  */
+#about-us {
+  margin-top: 103px;
+}
+
+#about-us .our-info-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#about-us .our-info-container .theme-image,
+#about-us .our-info-container .newsletter {
+  width: 825px;
+}
+#about-us .our-info-container .theme-image img {
+  width: 100%;
+  border-radius: 2px;
+}
+#about-us .our-info-container .newsletter .news-title {
+  color: rgb(16, 16, 16);
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#about-us .our-info-container .newsletter .news-text {
+  color: rgb(16, 16, 16);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 41px;
+}
+#about-us .our-info-container .newsletter .follow-us {
+  color: rgb(16, 16, 16);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  padding: 26px 0;
+  margin-bottom: 28px;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+#about-us .our-info-container .newsletter .social-media-images {
+  text-align: center;
+}
+#about-us .our-info-container .newsletter .social-media-images img {
+  cursor: pointer;
+}
