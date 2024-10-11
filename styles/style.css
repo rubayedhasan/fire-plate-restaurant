@@ -119,6 +119,9 @@ header .banner-container {
 }
 .feature-container .card-box {
   margin-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 .feature-container .card-box .card {
   width: 365px;
