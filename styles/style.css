@@ -11,9 +11,21 @@
 }
 
 /* common styles */
+.description {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 28px;
+}
+
 .btn-container {
   text-align: center;
 }
+
 .btn {
   color: rgb(255, 255, 255);
   font-size: 17px;
@@ -68,13 +80,40 @@ header .banner-container {
   margin-bottom: 20px;
 }
 
-.banner-container .description {
-  color: rgb(255, 255, 255);
-  font-size: 16px;
+/* feature section styles  */
+#feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 103px;
+}
+
+#feature .feature-container {
+  width: 1135px;
+  margin: 0 auto;
+}
+
+.feature-container .feature-subtitle {
+  color: rgb(16, 16, 16);
+  font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
-  opacity: 0.7;
-  margin-bottom: 28px;
+  opacity: 0.6;
+  margin-bottom: 14px;
+}
+.feature-container .feature-title {
+  color: rgb(16, 16, 16);
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 595px;
+  margin: 0 auto 20px;
+}
+.feature-container .description {
+  color: rgb(16, 16, 16);
+  margin-bottom: 41px;
 }
