@@ -16,7 +16,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0%;
+
   text-align: center;
   opacity: 0.7;
   margin-bottom: 28px;
@@ -31,7 +31,7 @@
   font-size: 17px;
   font-weight: 600;
   line-height: 19px;
-  letter-spacing: 0%;
+
   text-align: center;
   padding: 18px 28px;
   border-radius: 7px;
@@ -65,7 +65,7 @@ header .banner-container {
   font-size: 28px;
   font-weight: 600;
   line-height: 32px;
-  letter-spacing: 0%;
+
   text-align: center;
   opacity: 0.8;
   margin-bottom: 14px;
@@ -75,7 +75,7 @@ header .banner-container {
   font-size: 55px;
   font-weight: 700;
   line-height: 68px;
-  letter-spacing: 0%;
+
   text-align: center;
   margin-bottom: 20px;
 }
@@ -98,7 +98,7 @@ header .banner-container {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0%;
+
   text-align: center;
   opacity: 0.6;
   margin-bottom: 14px;
@@ -108,7 +108,7 @@ header .banner-container {
   font-size: 41px;
   font-weight: 700;
   line-height: 55px;
-  letter-spacing: 0%;
+
   text-align: center;
   width: 595px;
   margin: 0 auto 20px;
@@ -116,4 +116,47 @@ header .banner-container {
 .feature-container .description {
   color: rgb(16, 16, 16);
   margin-bottom: 41px;
+}
+.feature-container .card-box {
+  margin-bottom: 55px;
+}
+.feature-container .card-box .card {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.card-box .card .card-image {
+  width: 365px;
+}
+.card-box .card .card-image img {
+  width: 100%;
+}
+.card-box .card .card-title {
+  text-align: center;
+  border-radius: 6px;
+  padding: 12px 28px;
+  background: rgba(82, 195, 3, 0.15);
+}
+.card-box .card .card-title span {
+  color: rgb(16, 16, 16);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.card-box .card .card-offer {
+  color: rgb(16, 16, 16);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+.card-box .card .card-info {
+  color: rgb(16, 16, 16);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.7;
 }
