@@ -11,6 +11,17 @@
 }
 
 /* common styles */
-h1 {
-  color: brown;
+
+/* header section style */
+header {
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 790px;
 }
