@@ -11,7 +11,22 @@
 }
 
 /* common styles */
-
+.btn-container {
+  text-align: center;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 18px 28px;
+  border-radius: 7px;
+  border: none;
+  background: rgb(82, 195, 3);
+  cursor: pointer;
+}
 /* header section style */
 header {
   background-image: linear-gradient(
@@ -24,4 +39,42 @@ header {
   background-size: cover;
   background-position: center;
   height: 790px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .banner-container {
+  width: 880px;
+  margin: 0 auto;
+}
+.banner-container .subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 14px;
+}
+.banner-container .title {
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-container .description {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 28px;
 }
